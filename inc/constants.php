@@ -17,7 +17,7 @@ $title= htmlspecialchars("Carlos Mata", ENT_NOQUOTES, 'utf-8');
 
 $titleActivity= htmlspecialchars("Sculptures and Bijoux", ENT_NOQUOTES, 'utf-8');
 
-$webTitle= htmlspecialchars("Official site of"  ENT_NOQUOTES, 'utf-8') .$title ;
+$webTitle= htmlspecialchars("Official site of", ENT_NOQUOTES, 'utf-8') .$title ;
 
 $description= htmlspecialchars("Carlos Mata Scuptures and Bijoux", ENT_NOQUOTES, 'utf-8');
 
@@ -32,6 +32,7 @@ $copyrightDeveloperName = htmlspecialchars("Segonquart Studio", ENT_NOQUOTES, 'u
 $robots = htmlspecialchars("all,index,follow", ENT_NOQUOTES, 'utf-8');
 
 $format = htmlspecialchars("text/html", ENT_NOQUOTES, 'utf-8');
+
 $headers = htmlspecialchars("Content-Type: text/html; charset=ISO-8859-1\r\n", ENT_NOQUOTES, 'utf-8');
 
 $urlIcoALink = htmlspecialchars("assets/ico/favicon.ico", ENT_NOQUOTES, 'utf-8');
