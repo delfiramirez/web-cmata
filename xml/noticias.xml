@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<noticias>
+    <registro
+        titulo = "Eurantica Brussel 2005"
+        imagen = "./assets/news/img1.jpg"
+        texto = "Belgium : Eurantica Brussel 2005 ( 05/03/18 - 05/03/23 )"
+        enlace=""/>
+    <registro
+        titulo = "Artendens Art Expo of Ostende"
+        imagen = "./assets/news/img2.jpg"
+        texto = "Belgium : Artendens Art Expo of Ostende ( 05/03/26 - 05/04/17 )"
+        enlace=""/>
+    <registro
+        titulo = "Galerie Capazza"
+        imagen = "./assets/news/img3.jpg"
+        texto = "France :Galerie Capazza in Nançay Varnishing « Eros vu par... » ( from the 5th of March - 5 pm to 8 pm ; to the 5th of July )"
+        enlace="www.gallerie-capazza.com" />
+</noticias>
