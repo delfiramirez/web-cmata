@@ -1,4 +1,4 @@
-// C:\Documents and Settings\Zeh\Local Settings\Application Data\Macromedia\Flash 8\en\Configuration\ActionsPanel\CustomActions\mc_tween.xml
+
 /*
 ===============================================================================
 = MOVIECLIP/TEXTFIELD/SOUND TWEENING PROTOTYPE(s)
