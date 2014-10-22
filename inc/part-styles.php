@@ -25,9 +25,6 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-?>
-<?php
-
     header("Content-type: text/css; charset: UTF-8");
 	
 	$black ="#000";
@@ -55,7 +52,7 @@
 		
         #content {
 		    margin: auto;
-            position: relative;
+            position: <?php echo $relative; ?>
             text-align: <?php echo $alignLeft; ?>;
             width: 820px;
             height: 600px;
@@ -65,7 +62,7 @@
         #info {
             margin: <?php echo $null; ?>;
             padding: <?php echo $null; ?>;
-            position:<?php echo $absolute, ?>
+            position: <?php echo $absolute; ?>
 			z-index:-2;
 
 
