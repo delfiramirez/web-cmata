@@ -1,16 +1,19 @@
-<head>
+<?php
 
-    <?php include '/' . 'part-header.php' ?>
-	
-    <?php include '/' . 'part-styles.php.inc' ?>
-	
-    <?php include '/' . 'part-script-libraries.php.inc' ?>
-	
-</head>
+
+
+	echo '<script type="text/javascript">';
+	echo '<![CDATA[';
+	echo  delfi_flash(); 
+	echo ']]>';
+	echo '</script>';
+
+?>
 
 <?php
+
 /*
- * Copyright (c) 2005, Delfi Ramirez <delfin at segonquart.net>
+ * Copyright (c) 2006, Delfi Ramirez <delfin at segonquart.net>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -35,4 +38,4 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-?>
+ ?>
