@@ -28,6 +28,8 @@
     header("Content-type: text/css; charset: UTF-8");
 	
 	$black ="#000";
+	$transparent ="transparent";
+	
 	$null =0;
 	
 	$alignLeft ="left";
@@ -39,6 +41,9 @@
 	$positionAbsolute ="absolute";
 	
 	$fontFamily = array("Monaco", "Lucida Sans Unicode", "sans-serif");
+	$fontSize = 12;
+	$fontUnit ="px";
+	$fontUnitPrint ="pt";
 	
 ?>
 
@@ -69,7 +74,7 @@
         }
         a{
             color:<?php echo $black; ?>
-            background-color:transparent;
+            background-color: <?php echo $transparent; ?>
             text-decoration:none;
         }
 		
