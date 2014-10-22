@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jewelry>
+    <piece
+        name="eolo-1"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/001.jpg" />
+    <piece
+        name="eolo-2"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/002.jpg" />
+    <piece
+        name="eolo-3"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/003.jpg" />
+    <piece
+        name="eolo-4"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/004.jpg" />
+    <piece
+        name="eolo-5"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/005.jpg" />
+    <piece
+        name="eolo-6"
+        url="assets/swf/001.swf"
+        path="/assets/menu/silver/006.jpg" />
+    <piece
+        name="eolo-7"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/007.jpg" />
+    <piece
+        name="eolo-14"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/008.jpg" />
+    <piece
+        name="eolo-8"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/009.jpg" />
+    <piece
+        name="eolo-9"
+        url="/assets/swf/001.swf"
+        path="/assets/menu/silver/010.jpg" />
+</jewelry>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapsculpture>
+    <sculpture
+        id="1"
+        name="Krobis"
+        file="/assets/map/krobis.jpg"
+        url="/assets/map/krobis.jpg"
+        location="Bangkok, Thailand" />
+    <sculpture
+        id="2"
+        name="Kaleo"
+        file="/assets/map/kaleo.jpg"
+        url="/assets/map/kaleo.jpg"
+        location="Ayuthaya, Thailand" />
+    <sculpture
+        id="3"
+        name="Junio"
+        file="/assets/map/junio.jpg"
+        url="/assets/map/junio.jpg"
+        location="Bangkok, Thailand" />
+    <sculpture
+        id="4"
+        name="Gorus"
+        file="assets/map/gorus.jpg"
+        url="assets/map/gorus.jpg"
+        location="New Zealand" />
+    <sculpture
+        id="5"
+        name="Ehlia"
+        file="/assets/map/ehlia.jpg"
+        url="/assets/map/ehlia.jpg"
+        location="Earth" />
+    <sculpture
+        id="6"
+        name="Efeso"
+        file="/assets/map/efeso.jpg"
+        url="/assets/map/efeso.jpg"
+        location="Australia"/>
+    <sculpture
+        id="7"
+        name="Argar"
+        file="/assets/map/argar.jpg"
+        url="/assets/map/argar.jpg"
+        location="Praha, Czech Republic"  />
+    <sculpture
+        id="8"
+        name="Vaca Celia"
+        file="/assets/map/celia.jpg"
+        url="/assets/map/celia.jpg"
+        location="Athens, Greece"/>
+    <sculpture
+        id="9"
+        name="Stenus"
+        file="/assets/map/stenus.jpg"
+        url="/assets/map/stenus.jpg"
+        location="Chatham Islands, New Zealand" />
+</mapsculpture>

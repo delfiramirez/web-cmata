@@ -1,13 +1,13 @@
-﻿        <div id="info">
-		
-            <h1><?php echo htmlspecialchars($title, ENT_NOQUOTES, 'utf-8'); ?></h1>
-			
-            <h2><?php echo $titleActivity;  ?></h2>
-			
-            <h3><?php echo $webTitle; ?></h3>
-			
-        </div>
-		
+<div id="info">
+
+    <h1><?php echo htmlspecialchars($title, ENT_NOQUOTES, 'utf-8'); ?></h1>
+
+    <h2><?php echo $titleActivity; ?></h2>
+
+    <h3><?php echo $webTitle; ?></h3>
+
+</div>
+
 <?php
 /*
  * Copyright (c) 2005, Delfi Ramirez <delfin at segonquart.net>
@@ -34,5 +34,4 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-
 ?>

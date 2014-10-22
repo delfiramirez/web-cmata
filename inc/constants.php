@@ -11,33 +11,37 @@ define('REGEX_DOMAIN', '/^(([a-zA-Z0-9-]+)\.?)([a-zA-Z0-9-]+)\.(([a-zA-Z]{2,6})|
 
 /* Define CONSTANTS */
 
-$BASEURL= htmlspecialchars("http://carlosmata.eu", ENT_NOQUOTES, 'utf-8');
+$BASEURL=htmlspecialchars("http://carlosmata.eu", ENT_NOQUOTES, 'utf-8');
 
-$title= htmlspecialchars("Carlos Mata", ENT_NOQUOTES, 'utf-8');
+$title=htmlspecialchars("Carlos Mata", ENT_NOQUOTES, 'utf-8');
 
-$titleActivity= htmlspecialchars("Sculptures and Bijoux", ENT_NOQUOTES, 'utf-8');
+$titleActivity=htmlspecialchars("Sculptures and Bijoux", ENT_NOQUOTES, 'utf-8');
 
-$webTitle= htmlspecialchars("Official site of", ENT_NOQUOTES, 'utf-8') .$title ;
+$webTitle=htmlspecialchars("Official site of", ENT_NOQUOTES, 'utf-8').$title;
 
-$description= htmlspecialchars("Carlos Mata Scuptures and Bijoux", ENT_NOQUOTES, 'utf-8');
+$description=htmlspecialchars("Carlos Mata Scuptures and Bijoux", ENT_NOQUOTES, 'utf-8');
 
 $keywords=array('carlos', 'mata', 'sculpteur', 'bijoux', 'catalogue', 'artist', 'marguerite', 'yarmats', 'segonquart', 'studio');
 
-$copyright= $copyrightDeveloperName . date('Y') . htmlspecialchars (" and " , ENT_NOQUOTES, 'utf-8') . $title) ;
+$copyright=$copyrightDeveloperName.date('Y').htmlspecialchars(" and ", ENT_NOQUOTES, 'utf-8').$title;
 
-$copyrightDeveloperURL = htmlspecialchars("http://segonquart.net", ENT_NOQUOTES, 'utf-8');
+$copyrightDeveloperURL=htmlspecialchars("http://segonquart.net", ENT_NOQUOTES, 'utf-8');
 
-$copyrightDeveloperName = htmlspecialchars("Segonquart Studio", ENT_NOQUOTES, 'utf-8');
+$copyrightDeveloperName=htmlspecialchars("Segonquart Studio", ENT_NOQUOTES, 'utf-8');
 
-$robots = htmlspecialchars("all,index,follow", ENT_NOQUOTES, 'utf-8');
+$robots=htmlspecialchars("all,index,follow", ENT_NOQUOTES, 'utf-8');
 
-$format = htmlspecialchars("text/html", ENT_NOQUOTES, 'utf-8');
+$format=htmlspecialchars("text/html", ENT_NOQUOTES, 'utf-8');
 
-$headers = htmlspecialchars("Content-Type: text/html; charset=ISO-8859-1\r\n", ENT_NOQUOTES, 'utf-8');
+$headers=htmlspecialchars("Content-Type: text/html; charset=ISO-8859-1\r\n", ENT_NOQUOTES, 'utf-8');
 
-$urlIcoALink = htmlspecialchars("assets/ico/favicon.ico", ENT_NOQUOTES, 'utf-8');
+$urlIcoALink=htmlspecialchars("assets/ico/favicon.ico", ENT_NOQUOTES, 'utf-8');
 
-$urlIcoBLink = htmlspecialchars("assets/ico/animated_favicon1.gif", ENT_NOQUOTES, 'utf-8');
+$urlIcoBLink=htmlspecialchars("assets/ico/animated_favicon1.gif", ENT_NOQUOTES, 'utf-8');
+
+$urlScriptContent=htmlspecialchars("src/js/content.js", ENT_NOQUOTES, 'utf-8');
+
+$urlScriptContentPosition=htmlspecialchars("src/js/centrar.js", ENT_NOQUOTES, 'utf-8');
 
 /*
  * Copyright (c) 2014, Delfi Ramirez <delfin at segonquart.net>
@@ -64,5 +68,4 @@ $urlIcoBLink = htmlspecialchars("assets/ico/animated_favicon1.gif", ENT_NOQUOTES
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-
 ?>
