@@ -16,13 +16,14 @@
     <?php include 'inc' . '/' . 'part-header.php' ?>
 
     <body>
-        <div id="info">
-            <h1><?php echo htmlspecialchars($title, ENT_NOQUOTES, 'utf-8'); ?></h1>
-            <h2><?php echo $titleActivity;  ?></h2>
-            <h3><?php echo $webTitle; ?></h3>
-        </div>
+			<?php include 'inc' . '/' . 'part-seo.php' ?>
+			
         <div id="content">
+		
             <?php include 'inc' . '/' . 'part-content.php' ?>
+			
         </div>
+		
     </body>
+	
 </html>
