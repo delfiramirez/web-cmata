@@ -59,25 +59,25 @@
         #content 
 		{
 			margin: auto;
-            position: <?php echo $relative; ?>
+            position: <?php echo $relative; ?>;
             text-align: <?php echo $alignLeft; ?>;
             width: 820px;
             height: 600px;
-            background-color: <?php echo $black; ?>
+            background-color: <?php echo $black; ?>;
         }
 		
         #info 
 		{
             margin: <?php echo $null; ?>;
             padding: <?php echo $null; ?>;
-            position: <?php echo $absolute; ?>
+            position: <?php echo $absolute; ?>;
 			z-index:-2;
         }
 		
         a
 		{
-            color: <?php echo $black; ?>
-            background-color: <?php echo $transparent; ?>
+            color: <?php echo $black; ?>;
+            background-color: <?php echo $transparent; ?>;
             text-decoration:none;
         }
 		
