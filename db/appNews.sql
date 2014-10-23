@@ -11,6 +11,6 @@ CREATE TABLE 'noticias' (
   created TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-LOAD XML LOCAL INFILE 'noticias.xml'
-    ->   INTO TABLE noticias
-    ->   ROWS IDENTIFIED BY '<registro>';
+LOAD XML LOCAL INFILE '/assets/xml/noticias.xml'
+ INTO TABLE noticias
+ ROWS IDENTIFIED BY '<registro>';
