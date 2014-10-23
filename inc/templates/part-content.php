@@ -1,7 +1,5 @@
 <?php
 
-
-
 	echo '<script type="text/javascript">';
 	echo '<![CDATA[';
 	echo  delfi_flash(); 

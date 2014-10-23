@@ -14,15 +14,15 @@
     <base href="<?php echo $baseHref; ?>">
 
 
-        <?php include 'inc'.'/'.'part-header.php' ?>
+        <?php include 'inc'.'/'.'templates'.'/'.'part-header.php' ?>
 
         <body>
 
-            <?php include 'inc'.'/'.'part-seo.php' ?>
+            <?php include 'inc'.'/'.'templates'.'/'.'part-seo.php' ?>
 
             <div id="content">
 
-                <?php include 'inc'.'/'.'part-content.php' ?>
+                <?php include 'inc'.'/'.'templates'.'/'.'part-content.php' ?>
 
             </div>
 
