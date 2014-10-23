@@ -1,6 +1,6 @@
 <head>
 
-    <?php include '/' . 'part-header.php' ?>
+    <?php include '/' . 'part-meta.php' ?>
 	
     <?php include '/' . 'part-styles.php' ?>
 	
