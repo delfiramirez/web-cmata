@@ -4,10 +4,13 @@
 	onEnterFrame = function ()
 	{
 		dest_mc._alpha -= 10;
+		
 		if (dest_mc._alpha<=0) 
 		{
+		
 			delete this.onEnterFrame;
-			this.meuMVL.loadClip(img_mc, dest_mc);
+			meuMVL.loadClip(img_mc, dest_mc);
+			
 		}
 	};
 };
