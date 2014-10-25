@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<jewel>
+    <item
+        id_catalogue ="1"
+        nameProduct="Eolo"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/eolo.jpg" />
+    <item
+        id_catalogue ="2"
+        nameProduct="Agides"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/agides.jpg" />
+    <item
+        nameProduct="Trirreme"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/trirreme.jpg" />
+    <item
+        id_catalogue ="3"
+        nameProduct="Horios"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/horios_tot.jpg" />
+    <item
+        id_catalogue ="4"
+        nameProduct="Horios ( detall )"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/horios.jpg" />
+    <item
+        id_catalogue ="5"
+        nameProduct="Ehlia"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/ehlia.jpg" />
+    <item
+        id_catalogue ="6"
+        nameProduct="Horas ( detall )"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/horas_ear.jpg" />
+    <item
+        id_catalogue ="7"
+        nameProduct="Vitro"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/vitro_ear.jpg" />
+    <item
+        id_catalogue ="8"
+        nameProduct="Adonis"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/adonis_plata.jpg" />
+    <item
+        id_catalogue ="9"
+        nameProduct="Phylae"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/phylae.jpg" />
+    <item
+        id_catalogue ="10"
+        nameProduct="Adonis ( detall )"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/adonis_plata_ear.jpg" />
+    <item
+        id_catalogue ="11"
+        nameProduct="Afrodita"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/afrodita.jpg" />
+    <item
+        id_catalogue ="12"
+        nameProduct="Afrodita( detall )"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/afrodita_2.jpg" />
+    <item
+        id_catalogue ="13"
+        nameProduct="Parthenon"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/parthenon.jpg" />
+    <item
+        id_catalogue ="14"
+        nameProduct="Lyvia"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/lyvia.jpg" />
+    <item
+        id_catalogue ="15"
+        nameProduct="Fenyx"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/fenyx3.jpg" />
+    <item
+        id_catalogue ="16"
+        nameProduct="Fara"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/fara.jpg" />
+    <item
+        id_catalogue ="17"
+        nameProduct="Layas Gold"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/layas_oro.jpg" />
+    <item
+        id_catalogue ="18"
+        nameProduct="Eolo ( detall )"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/eolo_d.jpg" />
+    <item
+        id_catalogue ="19"
+        nameProduct="Layas Gold ( detall )"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/layas_oro_d.jpg" />
+    <item
+        id_catalogue ="20"
+        nameProduct="Thebbas"
+        imgProduct="https://eshop.carlosmata.eu/product/jewel/yarmats/thebbas.jpg" />
+</jewel>

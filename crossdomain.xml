@@ -2,5 +2,5 @@
     <allow-access-from domain="*.segonquart.net"/>
     <allow-access-from domain="carlosmata.eu"/>
     <allow-access-from domain="^.carlosmata.eu"/>
-    <allow-access-from domain="assets.carlsomata.eu"/>
+    <allow-access-from domain="eshop.carlosmata.eu"/>
 </cross-domain-policy>
