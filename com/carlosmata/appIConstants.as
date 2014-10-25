@@ -1,4 +1,11 @@
-﻿var TITLE:String = "CARLOS MATA - MARGARITA YARMATS\n  COLLECTION 2005 -נ2006";
+﻿
+System.security.allowDomain("www.carlosmata.eu", "^segonquart.net");
+
+Stage.showMenu = false;
+Stage.scaleMode = "noScale";
+
+
+var TITLE:String = "CARLOS MATA - MARGARITA YARMATS\n  COLLECTION 2005 -נ2006";
 var IMG_imagesPath:String = "/assets/img/collection/";
 var SILVER_imagesPath:String = "assets/swf/menuPlata2.swf";
 var GOLD_imagesPath:String = "assets/swf/menuOro2.swf";
