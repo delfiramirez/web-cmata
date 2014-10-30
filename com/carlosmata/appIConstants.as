@@ -1,10 +1,6 @@
 ﻿
-System.security.allowDomain("www.carlosmata.eu", "*.segonquart.net");
 
-Stage.showMenu = false;
-Stage.scaleMode = "noScale";
-
-// -- String Object
+// -- String Objects
 
 var TITLE:String = "CARLOS MATA - MARGARITA YARMATS\n  COLLECTION 2005 -נ2006";
 var IMG_imagesPath:String = "/assets/img/collection/";
@@ -40,3 +36,15 @@ var silverBtn_mc:MovieClip;
 var goldBtn_mc:MovieClip;
 var menuGold_mc:MovieClip;
 var menuSilver_mc:MovieClip;
+
+// --Calculus and etceteras
+
+var appDate:Date = new Date();
+var epochAppTime:Number = Math.round(appDate.valueOf()/1000);
+
+//trace(now.valueOf(), epochAppTime);
+
+System.security.allowDomain("www.carlosmata.eu", "*.segonquart.net");
+
+Stage.showMenu = false;
+Stage.scaleMode = "noScale";
