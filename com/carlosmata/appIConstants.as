@@ -23,6 +23,10 @@ var jewelSilverCollectionString:String ="BIJOUX: SILVER";
 
 var XML_ROUTE:String = "assets/xml/slideNews.xml";
 
+//L--LoadVars
+
+var EMAIL_ROUTE:String ="inc/email.php";
+
 // --MovieClip Object
 
 
