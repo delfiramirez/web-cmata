@@ -21,7 +21,7 @@
     <sculpture
         id_map="4"
         name="Gorus"
-        file="assets/map/gorus.jpg"
+        file="/assets/map/gorus.jpg"
         url="https://assets.carlosmata.eu/map/gorus.jpg"
         location="Rome, Italy" />
     <sculpture
