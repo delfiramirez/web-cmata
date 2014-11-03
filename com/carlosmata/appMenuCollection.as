@@ -105,15 +105,15 @@ collectionJewelButtons = function ()Void
 			
 		};
 		
-		stateButton(clicked);
+		stateButton(activeAction);
 	};
 	
 // --Private Functions
 
-stateButton	= function(clicked:String):Void 
+stateButton	= function(activeAction:String):Void 
 {
 
-	 switch (clicked)
+	 switch (activeAction)
 	 {
 	 
 	 case jewelCollectionBTN_array[0]:
