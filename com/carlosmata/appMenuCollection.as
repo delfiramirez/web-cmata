@@ -1,4 +1,6 @@
-﻿if (this._currentframe = "appCollection")
+﻿import mx.events.EventDispatcher;
+
+if (this._currentframe = "appCollection")
 {
 
 var imagesIntro_array:Array = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"];
@@ -41,6 +43,8 @@ appCollectionListener.onLoadComplete = function(evt:Object):Void
 
 initAppCollection = function():Void
 {
+	mx.events.EventDispatcher.initialize(this);
+	
 	this.stop();
 	this._lockroot = true;
 
