@@ -4,6 +4,8 @@ chdir(__DIR__);
 
 define('ROOT', dirname(dirname(__FILE__)));
 
+define('TIMEZONE', 'GMT');
+
 /* Define REGEX */
 
 define('REGEX_EMAIL', '/^[^\W][a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)*\@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z]{2,6}$/');
@@ -44,7 +46,7 @@ $urlScriptContent=htmlspecialchars("src/js/content.js", ENT_NOQUOTES, 'utf-8');
 $urlScriptContentPosition=htmlspecialchars("src/js/centrar.js", ENT_NOQUOTES, 'utf-8');
 
 /*
- * Copyright (c) 2014, Delfi Ramirez <delfin at segonquart.net>
+ * Copyright (c) 2005, Delfi Ramirez <delfin at segonquart.net>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
