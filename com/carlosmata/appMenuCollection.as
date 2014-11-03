@@ -92,7 +92,7 @@ collectionJewelButtons = function ()Void
 	
 		this._parent.unloadMovie(10);
 		
-		this.colorTo(0xFDFDFD, 1, "linear");
+		this.colorTo('0xFDFDFD', 1, "linear");
 		
 		this._parent.colorTo('0x000000', 1, "linear");;
 		
