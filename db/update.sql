@@ -1,1 +1,3 @@
-﻿UPDATE 'eShop', 'linkJewelGold', 'linkJewelSilver', 'mapSculptures', 'noticias','slideNews' 
+﻿USE cmata;
+
+UPDATE 'eShop', 'linkJewelGold', 'linkJewelSilver', 'mapsculpture', 'noticias','slideNews' 
