@@ -1,0 +1,1 @@
+﻿UPDATE 'eShop', 'linkJewelGold', 'linkJewelSilver', 'mapSculptures', 'noticias','slideNews' 
