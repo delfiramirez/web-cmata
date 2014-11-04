@@ -3,7 +3,7 @@
 // -- String Objects
 var authorNameString:String 			= "CARLOS MATA";
 var coauthorNameString:String 			= "MARGARITA YARMATS";
-var TITLE:String 						= authorNameString + "-" + coauthorNameString + "\n" + " COLLECTION 2005 -נ2006";
+var TITLE:String 					= authorNameString + "-" + coauthorNameString + "\n" + " COLLECTION 2005 -נ2006";
 
 
 var titleNameString:String 				= "COLLECTION " authorNameString + "-" + coauthorNameString;
