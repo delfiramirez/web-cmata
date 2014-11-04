@@ -2,30 +2,51 @@
 
 if (this._currentframe = "appCollection")
 {
+	
+	var indicator_txt:String;
+	
+	var indicatorMC_mc:MovieClip;
+	
+	var imagesIntro_array:Array = 			[
+	
+											"01.jpg", 
+											"02.jpg", 
+											"03.jpg", 
+											"04.jpg", 
+											"05.jpg", 
+											"06.jpg"
+											
+											];
+											
 
-	var imagesIntro_array:Array = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"];
-	var imagesPath:String = IMG_imagesPath;
-	var i:Number = imagesIntro_array.length;
-	var k:Number = Math.floor(Math.random()*10);
-
-	var jewelCollectionBTN_array:Array= ["silverBtn_mc", "goldBtn_mc"];
-	var jewelCollectionBTNtext_array:Array= ["silver_txt", "gold_txt"];
+	var jewelCollectionBTN_array:Array= 	[
+	
+											"silverBtn_mc", 
+											"goldBtn_mc"
+											
+											];
+											
+	var jewelCollectionBTNtext_array:Array= [
+	
+											"silver_txt", 
+											"gold_txt"
+											
+											];
 
 
 	var appCollectionListener:Object = new Object();
-	var indicator_txt:String;
-	var indicatorMC_mc:MovieClip;
 
-	meuMVL.addListener(appCollectionListener);
 
-	appCollectionListener.onLoadProgress = function(alvo:Object, bytesLoaded:Number, bytesTotal:Number) 
+meuMVL.addListener(appCollectionListener);
+
+appCollectionListener.onLoadProgress = function(alvo:Object, bytesLoaded:Number, bytesTotal:Number) 
 	{
 	
 		this.indicator_txt.text = Math.round(bytesLoaded/bytesTotal*100)+" %";
 		
 	};
 
-	appCollectionListener.onLoadComplete = function(evt:Object):Void
+appCollectionListener.onLoadComplete = function(evt:Object):Void
 	{
 		this.indicatorMC_mc.indicator_txt.text = "";
 		
@@ -54,17 +75,17 @@ initAppCollection = function():Void
 		this.stop();
 		this._lockroot = true;
 
+		this.foto_mc._y = 0;
 		this.foto_mc._alpha = 0;
 		this.foto_mc.xScaleTo= 450;
 		this.foto_mc.yScaleTo = 450;
-		this.foto_mc._y = 0;
+
 
 		this.titol_txt.autoSize = true;
-
 		this.collection_txt.text = TITLE;
-		this.appStick._visible = false;
-
 		this.collection_txt.alphaTo(100, 1, "linear");
+		
+		this.appStick._visible = false;
 		
 		collectionJewelButtons();
 	};
@@ -81,38 +102,42 @@ collectionJewelButtons = function ()Void
 			
 			this.jewelCollectionBTN_array[i]._alpha = jewelCollectionBTNtext_array[i] = 0;
 			
-			if (this.jewelCollectionBTN_array[i]._alpha ==0 && this.jewelCollectionBTNtext_array[i]._alpha ==0)
+			if (this.jewelCollectionBTN_array[i]._alpha == 0 && this.jewelCollectionBTNtext_array[i]._alpha == 0)
 			{
 			
 			onEnterFrame = function():Void
-			{
-			
-			this.silver_txt.alphaTo(100, 2, "linear");
-			this.gold_txt.alphaTo(100, 2, "linear", 0.6);
-			
-			}
+				{
+				
+				jewelCollectionBTNtext_array[0].alphaTo(100, 2, "linear");
+				jewelCollectionBTNtext_array[1].alphaTo(100, 2, "linear", 0.6);
+				
+				delete this.onEnterFrame;
+				
+				};
 			
 			 break;
 			 
 			};
+		
 		};	
-
-		this.jewelCollectionBTN_array[i].onPress = function():Void 
+	};
+	
+this.jewelCollectionBTN_array[i].onPress = function():Void 
 		
 			this._parent.unloadMovie(10);
 			
 			this.colorTo('0xFDFDFD', 1, "linear");
-			
-			this._parent.colorTo('0x000000', 1, "linear");;
+	
+			this._parent.colorTo('0x000000', 1, "linear");
 			
 			this.foto_mc.colorTo('0x000000', 0.9, "linear");
 			
-			if (foto_mc.color == '0x000000') 
-			{
-			
-				this.foto_mc._visible = false;
+				if (foto_mc.color == '0x000000') 
+				{
 				
-			};
+					this.foto_mc._visible = false;
+					
+				};
 			
 			stateButton(activeAction);
 	};
@@ -148,11 +173,16 @@ stateButton	= function(activeAction:String):Void
 
 randomImageInit = function (foto_mc:MovieClip):Void
 	{
+		
+		var imagesPath:String = IMG_imagesPath;
+	
+		var i:Number = imagesIntro_array.length;
+	
+		var k:Number = Math.floor(Math.random()*10);
 
-		this.alphaTo(99.9999, 1.6, 'easeinquad', 0.6);
-
-		this.loadMovie(imagesPath+imagesIntro_array[k], 1);
-
+		loadMovie(imagesPath+imagesIntro_array[k] + new Date(), 1);
+		
+		this.alphaTo(99.9999, 1.6, "easeinquad", 0.6);
 	};
 
 
