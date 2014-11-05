@@ -58,7 +58,7 @@ appCollectionListener.onLoadComplete = function(evt:Object):Void
 		var indicator_txt:String;
 	
 		this.indicatorMC_mc.indicator_txt.text = " ";
-		describir_mc._alpha = 0;
+		this.describirMC_mc._alpha = 0;
 
 
 		
@@ -91,7 +91,7 @@ initAppCollection = function():Void
 		this.foto_mc._alpha = 0;
 		this.foto_mc.xScaleTo= 450;
 		this.foto_mc.yScaleTo = 450;
-		this.describir_mc.alphaTo (99, 2, 'easeoutquad', 0.2);
+		this.describirMC_mc.alphaTo (99, 2, 'easeoutquad', 0.2);
 		
 
 
