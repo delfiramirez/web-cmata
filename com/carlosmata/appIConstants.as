@@ -54,7 +54,7 @@ var mailFrom_txt:String;
 var body_txt:String;
 var trueButtonLabel_txt:String;
 
-var appTimeline:MovieClip ;
+var appTimeline:MovieClip;
 
 var appRecommend:Object;
 var appForm:Object;
