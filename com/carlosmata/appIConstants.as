@@ -14,7 +14,7 @@ var showroomString:String 				= "SHOWROOM";
 var biographyString:String 				= "BIOGRAPHY";
 var exhibitionString:String 			= "EXHIBITIONS AND" + newsString;
 var newsString:String 					= "NEWS";
-var sculptureString:String 				= "SCULPTURES";
+var sculptureString:String 				= workNameString;
 var jewelGoldCollectionString:String 	= "BIJOUX" + ":" + "GOLD";
 var jewelSilverCollectionString:String 	= "BIJOUX " + ":" + "SILVER";
 
@@ -34,6 +34,7 @@ var XML_ROUTE_MAP:String 				= XML_ROUTE + "/" + "mapSculptures.xml";
 //  --Includes
 
 var EMAIL_ROUTE:String 					= "inc" + "/" + "email.php";
+var SENDTO_ROUTE:STRING					 = "inc" + "/* + sendForm.php";
 
 // -- Objects & __protos__
 
