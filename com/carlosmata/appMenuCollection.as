@@ -1,15 +1,15 @@
 ﻿import mx.events.EventDispatcher;
-import mx.data.binding.ObjectDumper;
-import mx.data.binding.ObjectDumper;
+
 
 var appTimeline:MovieClip = this;
 
-if ( typeof (appTimeline) == "movieclip" && this._currentframe =  "appCollection")
+if ( typeof (appTimeline) == 'movieclip' && this._currentframe =  "appCollection")
 {
+
 	
-	var indicator_txt:String;
+	var describirMC_mc:MovieClip;
 	
-	var indicatorMC_mc:MovieClip;
+	var backButton_mc:MovieClip;
 	
 	var imagesIntro_array:Array = 			[
 	
@@ -37,13 +37,14 @@ if ( typeof (appTimeline) == "movieclip" && this._currentframe =  "appCollection
 											
 											];
 
-
 	var appCollectionListener:Object = new Object();
 
 
-meuMVL.addListener(appCollectionListener);
+	meuMVL.addListener(appCollectionListener);
+	
 
-appCollectionListener.onLoadProgress = function(alvo:Object, bytesLoaded:Number, bytesTotal:Number) 
+
+appCollectionListener.onLoadProgress = function(yarmats:Object, bytesLoaded:Number, bytesTotal:Number) 
 	{
 	
 		this.indicator_txt.text = Math.round(bytesLoaded/bytesTotal*100)+" %";
@@ -52,16 +53,23 @@ appCollectionListener.onLoadProgress = function(alvo:Object, bytesLoaded:Number,
 
 appCollectionListener.onLoadComplete = function(evt:Object):Void
 	{
-		this.indicatorMC_mc.indicator_txt.text = "";
+	
+		var indicatorMC:MovieClip;
+		var indicator_txt:String;
+	
+		this.indicatorMC_mc.indicator_txt.text = " ";
+		describir_mc._alpha = 0;
+
+
 		
 		onEnterFrame = function ():Void
 		{
 		
 			randomImageInit();
 			
-			_root.indicatorMC_mc._alpha += 10;
+			indicatorMC_mc._alpha += 10;
 			
-			if (_root.indicatorMC_mc._alpha>=100) 
+			if ( indicatorMC_mc._alpha>=100 ) 
 			{
 			
 				delete this.onEnterFrame;
@@ -83,15 +91,18 @@ initAppCollection = function():Void
 		this.foto_mc._alpha = 0;
 		this.foto_mc.xScaleTo= 450;
 		this.foto_mc.yScaleTo = 450;
+		this.describir_mc.alphaTo (99, 2, 'easeoutquad', 0.2);
+		
 
 
 		this.titol_txt.autoSize = true;
 		this.collection_txt.text = TITLE;
-		this.collection_txt.alphaTo(100, 1, "linear");
+		this.collection_txt.alphaTo(100, 1, 'linear');
 		
 		this.appStick._visible = false;
 		
 		collectionJewelButtons();
+		
 	};
 
 
@@ -112,8 +123,8 @@ collectionJewelButtons = function ()Void
 			onEnterFrame = function():Void
 				{
 				
-				jewelCollectionBTNtext_array[0].alphaTo(100, 2, "linear");
-				jewelCollectionBTNtext_array[1].alphaTo(100, 2, "linear", 0.6);
+				jewelCollectionBTNtext_array[0].alphaTo(100, 2, 'linear');
+				jewelCollectionBTNtext_array[1].alphaTo(100, 2, 'linear', 0.6);
 				
 				delete this.onEnterFrame;
 				
@@ -127,14 +138,15 @@ collectionJewelButtons = function ()Void
 	};
 	
 this.jewelCollectionBTN_array[i].onPress = function():Void 
+	{
 		
 			this._parent.unloadMovie(10);
 			
-			this.colorTo('0xFDFDFD', 1, "linear");
+			this.colorTo('0xFDFDFD', 1, 'linear');
 	
-			this._parent.colorTo('0x000000', 1, "linear");
+			this._parent.colorTo('0x000000', 1, 'linear');
 			
-			this.foto_mc.colorTo('0x000000', 0.9, "linear");
+			this.foto_mc.colorTo('0x000000', 0.9, 'linear');
 			
 				if (foto_mc.color == '0x000000') 
 				{
@@ -145,12 +157,18 @@ this.jewelCollectionBTN_array[i].onPress = function():Void
 			
 			stateButton(activeAction);
 	};
+
+this.backButton_mc.onPress = function():Void
+	{
+		nextFrame();
+	};
 	
 // --Private Functions
 
 stateButton	= function(activeAction:String):Void 
 	{
-
+		this.useHandCursor = true;
+		
 		 switch (activeAction)
 		{
 		 
@@ -182,11 +200,11 @@ randomImageInit = function (foto_mc:MovieClip):Void
 	
 		var i:Number = imagesIntro_array.length;
 	
-		var k:Number = Math.floor(Math.random()*10);
+		var k:Number = Math.floor(Math.random() * 10);
 
 		loadMovie(imagesPath+imagesIntro_array[k] + new Date(), 1);
 		
-		this.alphaTo(99.9999, 1.6, "easeinquad", 0.6);
+		this.alphaTo(99.9999, 1.6, 'easeinquad', 0.6);
 	};
 
 
