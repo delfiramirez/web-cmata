@@ -3,8 +3,8 @@
 // -- String Objects
 var authorNameString:String 			= "CARLOS MATA";
 var coauthorNameString:String 			= "MARGARITA YARMATS";
-var productNameString:String 			= "BIJOUX";
-var workNameString:String 				= "SCULPTURES";
+var productNameString:String 			= "SCULPTURES";
+var coproductNameString:String 			= "BIJOUX";
 var TITLE:String 						= authorNameString + "-" + coauthorNameString + "\n" + " COLLECTION 2005 -נ2006";
 
 
@@ -14,9 +14,9 @@ var showroomString:String 				= "SHOWROOM";
 var biographyString:String 				= "BIOGRAPHY";
 var exhibitionString:String 			= "EXHIBITIONS AND" + newsString;
 var newsString:String 					= "NEWS";
-var sculptureString:String 				= workNameString;
-var jewelGoldCollectionString:String 	= "BIJOUX" + ":" + "GOLD";
-var jewelSilverCollectionString:String 	= "BIJOUX " + ":" + "SILVER";
+var sculptureString:String 				= productNameString;
+var jewelGoldCollectionString:String 	= coproductNameString + ":" + "GOLD";
+var jewelSilverCollectionString:String 	= coproductNameString + ":" + "SILVER";
 
 // --Load
 
