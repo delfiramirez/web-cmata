@@ -20,13 +20,16 @@ var jewelSilverCollectionString:String 	= coproductNameString + ":" + "SILVER";
 
 // --Load
 
-var XML_ROUTE:String 					= "assets" + "/" "xml" + "/";
+
 var IMG_imagesPath:String				= "assets" + "/" + "img" + "/" + "collection". "/";
+
 var MOVIES_PATH 						= "assets" + "/" + "swf". "/" ;
 var SILVER_imagesPath:String 			= MOVIES_PATH + "menuPlata2.swf";
 var GOLD_imagesPath:String 				= MOVIES_PATH + "menuOro2.swf";
 var FORM_PATH:String 					= MOVIES_PATH + "appForm.swf";
-var SENDTO_PATH:String					= MOVIES_PATH + "appRecommend.swf"
+var SENDTO_PATH:String					= MOVIES_PATH + "appRecommend.swf";
+
+var XML_ROUTE:String 					= "assets" + "/" "xml" + "/";
 var XML_ROUTE_NEWS:String 				= XML_ROUTE + "/" + "slideNews.xml";
 var XML_ROUTE_MAP:String 				= XML_ROUTE + "/" + "mapSculptures.xml";
 
