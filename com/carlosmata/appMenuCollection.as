@@ -1,6 +1,10 @@
 ﻿import mx.events.EventDispatcher;
+import mx.data.binding.ObjectDumper;
+import mx.data.binding.ObjectDumper;
 
-if (this._currentframe = "appCollection")
+var appTimeline:MovieClip = this;
+
+if ( typeof (appTimeline) == "movieclip" && this._currentframe =  "appCollection")
 {
 	
 	var indicator_txt:String;

@@ -45,6 +45,8 @@ var goldBtn_mc:MovieClip;
 var menuGold_mc:MovieClip;
 var menuSilver_mc:MovieClip;
 
+var appTimeline:MovieClip ;
+
 
 var dispatchEvent:Function;
 var removeEventListener:Function;
