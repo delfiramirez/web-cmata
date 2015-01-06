@@ -12,5 +12,5 @@ CREATE TABLE 'cmTB_noticias' (
 
 LOAD XML LOCAL INFILE '/assets/xml/noticias.xml'
 		 INTO TABLE cmTB_noticias
-         ROWS IDENTIFIED BY '<registro>'
+		 ROWS IDENTIFIED BY '<registro>'
 		 SET ID=NULL;
