@@ -1,13 +1,17 @@
+#Application Website
+
 web-cmata
 =========
 
-Software Multimedia Web Project. Circa 2005
+Hypermedia/ Web Multimedia Project. Circa 2005
 
-License & Copyright
+License & Copyright : The materials herein are all (c) 2005-2015 Heritage Carlos Mata & Delfi Ramirez
 
-The materials herein are all (c) 2005-2015 Heritage Carlos Mata & Delfi Ramirez
+#Use
 
 You might want to use them or extend them for educational, recreational purposes.
+
+You might want t translate it to ECMAScript6
 
 ![02](https://cloud.githubusercontent.com/assets/2017479/4780237/ca58f62c-5c5e-11e4-8b91-c440b33532dc.jpg)
 
