@@ -1,6 +1,4 @@
 #Application Website
-
-web-cmata
 =========
 
 Hypermedia/ Web Multimedia Project. Circa 2005
