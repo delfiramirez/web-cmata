@@ -6,6 +6,8 @@ Graphic Assets && Art Material : Carlos Mata Heritage && Margarita Yarmats
 
 Programming, Development & Digital Design : Delfi Ramírez <delfin@segonquart.net>
 
+Tween Libraries : Zeh Fernando, zeh.com.br
+
 Company: SEGONQUART STUDIO HQ
 
 Date of Release : 2005
